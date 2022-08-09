@@ -5,8 +5,28 @@
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin:0;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
     background-color: var(--black);
+    color: var(--white);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.name-of-website {
+    text-align: left;
+
+
+}
+.nav-tabs {
+    flex-flow: row wrap;
+    color: var(--white);
+
 }
