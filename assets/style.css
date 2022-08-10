@@ -135,37 +135,37 @@ body {
 
 .apps-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width:1100px; 
 }
 
 .clock{
-    height: 300px;
-    width: 300px;
+    height: 285px;
+    width: 285px;
     margin: 5px;
 }
 
 .calculator {
-    height: 1000px;
-    width: 1200px;
+    height: 1185px;
+    width: 1000px;
     margin: 5px;
 
 }
 
 .BMI-calcualtor {
-    height: 300px;
-    width: 300px;
+    height: 285px;
+    width: 285px;
     margin: 5px
 }
 
 .rock-paper-scissors {
-    height: 300px;
-    width: 300px;
+    height: 285px;
+    width: 285px;
     margin: 5px;
 }
 
 .quote {
-    height: 300px;
-    width: 300px;
+    height: 285px;
+    width: 285px;
     margin: 5px;
 }
