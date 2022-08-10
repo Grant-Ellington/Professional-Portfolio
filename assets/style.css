@@ -36,7 +36,7 @@
 }
 
 .nav-card {
-    border-right: solid;
+    border-right: none;
     border-style: solid;
     border-top: 0px;
     border-bottom: 0px;
@@ -60,12 +60,15 @@ body {
     border-style: solid;
     border-color:var(--black);
     border-width:2px;
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .row { 
     display: flex;
     justify-content:flex-start;
-
     background-color: var(--white);
     font-family: 'Courier New', Courier, monospace;
     padding: 5px;
@@ -80,8 +83,8 @@ body {
     font-size: 70px;
     border-style: solid;
     border-top: none;
-    border-left: none;
     border-bottom: none;
+    border-left: none;
     padding: 10px;
     margin: 10px;
 
@@ -91,13 +94,23 @@ body {
     justify-content: flex-start;
     padding: 10px;
 }
-.text {
-    display:flex;
-    flex-flow: row wrap;
-    width:400px;
-    height:300px;
-}
 .image {
     width:300px;
     height: 300px;
+    margin-left:5px;
+}
+
+.desk-image {
+    height:500px;
+    width: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.text{
+    width: 1100px;
+    height:300px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    font-size: 20px;
 }
