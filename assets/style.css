@@ -132,15 +132,15 @@ body {
 .apps{
     display:flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .apps-link-main {
-    height: 300px;
-    width: 300px;
     margin: 5px;
+    position: absolute;
     text-align: center;
-    color: var(--black);
+    color: var(--blue);
+
 }
 
 .apps-link {
@@ -149,12 +149,20 @@ body {
     margin: 5px;
     text-align: center;
     color: var(--white);
+    margin-bottom: 5px;
 }
 
-.apps-container {
+.apps-container-big {
+    display: flex;
+    justify-content:
+    width:1100px; 
+}
+
+.apps-contain-small {
     display: flex;
     justify-content: flex-start;
-    width:1100px; 
+    align-items: flex-start;
+    width:1100px;
 }
 
 .clock{
@@ -166,7 +174,7 @@ body {
 .calculator {
     height: 854px;
     width: 1000px;
-    margin: 5px;
+    margin: 0px;
 }
 
 .BMI-calcualtor {
@@ -189,22 +197,26 @@ body {
 
 .major-apps{
     position: static;
-    text-align:center;
+    text-align:Right;
     color:var(--white);
-    background-color: var(--blue);
-    height: ;
+    background-color: var(--grey);
+    font-size: 32px;
+    margin: 5px;
 }
 
 .minor-apps {
-    position: static;
     text-align:center;
-    color:var(--white);
-    background-color: var(--blue);
+    font-size: 16px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
 }
 .major-bottom-right{
     position: static;
     bottom: 8px;
     right: 16px;
+    width: 10px;
 
 }
 
@@ -212,5 +224,7 @@ body {
     position: static;
     bottom: 8px;
     right: 16px;
+    margin-bottom: 5px;
+    background-color: var(--grey);
 }
 
