@@ -61,7 +61,7 @@ body {
     border-color:var(--black);
     border-width:2px;
     margin-left: 5px;
-    margin-right:5px;
+    margin-right:px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -113,4 +113,53 @@ body {
     flex-flow: row wrap;
     align-content: space-around;
     font-size: 20px;
+}
+
+.apps{
+    display:flex;
+    align-content: flex-start;
+}
+
+.apps-link-main {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.apps-link {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.clock{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.calculator {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+
+}
+
+.BMI-calcualtor {
+    height: 100px;
+    width: 100px;
+    margin: 5px
+}
+
+.rock-paper-scissors {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+.quote {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+
 }
