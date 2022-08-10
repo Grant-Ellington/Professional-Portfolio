@@ -139,12 +139,16 @@ body {
     height: 300px;
     width: 300px;
     margin: 5px;
+    text-align: center;
+    color: var(--black);
 }
 
 .apps-link {
     height: 100px;
     width: 100px;
     margin: 5px;
+    text-align: center;
+    color: var(--white);
 }
 
 .apps-container {
@@ -163,7 +167,6 @@ body {
     height: 854px;
     width: 1000px;
     margin: 5px;
-
 }
 
 .BMI-calcualtor {
@@ -183,3 +186,30 @@ body {
     width: 185px;
     margin: 5px;
 }
+
+.major-apps{
+    position: static;
+    text-align:center;
+    color:var(--white);
+    background-color: var(--blue);
+}
+
+.minor-apps {
+    position: static;
+    text-align:center;
+    color:var(--white);
+    background-color: var(--blue);
+}
+.major-bottom-right{
+    position: static;
+    bottom: 8px;
+    right: 16px;
+
+}
+
+.bottom-text-right-minor {
+    position: static;
+    bottom: 8px;
+    right: 16px;
+}
+
