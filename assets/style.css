@@ -107,7 +107,7 @@ body {
     margin-top: 0px;
 }
 .text{
-    width: 1100px;
+    width: 900px;
     height:300px;
     display: flex;
     flex-flow: row wrap;
@@ -117,12 +117,13 @@ body {
 
 .apps{
     display:flex;
-    align-content: flex-start;
+    flex-flow: column wrap;
+    justify-content: center;
 }
 
 .apps-link-main {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     margin: 5px;
 }
 
@@ -132,15 +133,21 @@ body {
     margin: 5px;
 }
 
+.apps-container {
+    display: flex;
+    justify-content: center;
+    width: 
+}
+
 .clock{
-    height: 100px;
-    width: 100px;
+    height: 600px;
+    width: 600px;
     margin: 5px;
 }
 
 .calculator {
-    height: 100px;
-    width: 100px;
+    height: 1000px;
+    width: 1200px;
     margin: 5px;
 
 }
