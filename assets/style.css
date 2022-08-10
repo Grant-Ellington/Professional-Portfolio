@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin-top: 0px;
 }
 :root {
     --black:#000000;
@@ -12,10 +13,16 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     background-color: var(--black);
     color: var(--white);
     font-family: 'Courier New', Courier, monospace;
     border: 0px;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+
+
 }
 
 .name-of-website {
@@ -23,6 +30,7 @@
     padding-left: 10px;
     font-size: 30px;
     padding-top: 10px;
+    align-items: flex-end;
 
     
 }
@@ -31,17 +39,23 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: flex-end;
     list-style-type: none;
     font-size: 15px;
+    padding-top: 30px;
+    
 }
 
 .nav-card {
+    display: flex;
+    align-items: flex-end;
     border-right: none;
     border-style: solid;
     border-top: 0px;
     border-bottom: 0px;
+    border-right: 0px;
     padding-left:10px;
-    padding-right: 10px;
+    padding-right:10px;
     border-width: 1px;
 }
 
@@ -140,32 +154,32 @@ body {
 }
 
 .clock{
-    height: 285px;
-    width: 285px;
+    height: 202px;
+    width: 185px;
     margin: 5px;
 }
 
 .calculator {
-    height: 1185px;
+    height: 854px;
     width: 1000px;
     margin: 5px;
 
 }
 
 .BMI-calcualtor {
-    height: 285px;
-    width: 285px;
+    height: 202px;
+    width: 185px;
     margin: 5px
 }
 
 .rock-paper-scissors {
-    height: 285px;
-    width: 285px;
+    height: 202px;
+    width: 185px;
     margin: 5px;
 }
 
 .quote {
-    height: 285px;
-    width: 285px;
+    height: 202px;
+    width: 185px;
     margin: 5px;
 }
