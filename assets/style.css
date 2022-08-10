@@ -136,12 +136,12 @@ body {
 .apps-container {
     display: flex;
     justify-content: center;
-    width: 
+    width:1100px; 
 }
 
 .clock{
-    height: 600px;
-    width: 600px;
+    height: 300px;
+    width: 300px;
     margin: 5px;
 }
 
@@ -153,20 +153,19 @@ body {
 }
 
 .BMI-calcualtor {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     margin: 5px
 }
 
 .rock-paper-scissors {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     margin: 5px;
 }
 
 .quote {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     margin: 5px;
-
 }
