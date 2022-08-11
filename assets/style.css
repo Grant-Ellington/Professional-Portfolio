@@ -144,9 +144,11 @@ body {
 
 }
 
-.apps-links {
+a .apps-links {
     margin-bottom: 5px;
     background-color: var(--grey);
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .apps-container-big {
