@@ -74,13 +74,6 @@ h2 {
 body {
     display:flex;
     flex-flow: column wrap ;
-    border-style: solid;
-    border-color:var(--black);
-    border-width:2px;
-    margin-left: 5px;
-    margin-right:px;
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 .row { 
@@ -267,4 +260,26 @@ footer{
 a {
     color: var(--black);
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 320px) {
+    .empty{
+        width:0px;
+    }
+    body.header{
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .nav-card{
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .description{
+        width:0px;
+    }
 }
