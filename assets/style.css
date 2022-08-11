@@ -143,13 +143,10 @@ body {
 
 }
 
-.apps-link {
-    height: 100px;
-    width: 100px;
-    margin: 5px;
-    text-align: center;
-    color: var(--white);
+.apps-links {
+    color: var(--black);
     margin-bottom: 5px;
+    background-color: var(--grey);
 }
 
 .apps-container-big {
@@ -159,11 +156,9 @@ body {
     width:200px; 
 }
 
-.apps-contain-small {
+.apps-container-small {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width:1100px;
+    flex-flow:column wrap;
 }
 
 .clock{
@@ -212,20 +207,27 @@ body {
     display:flex;
     justify-content: space-between;
     flex-flow: row wrap;
+    color: var(--white);
+    display: flex;
+    align-items: flex-start;
+
+
 }
 .major-bottom-right{
     position: static;
     bottom: 8px;
     right: 16px;
     width: 10px;
+    background-color: var(--grey);
 
 }
 
 .bottom-text-right-minor {
-    position: static;
-    bottom: 8px;
-    right: 16px;
+    bottom: 200px;
+    right: 200px;
     margin-bottom: 5px;
     background-color: var(--grey);
+    display: flex;
+    align-items: flex-start;
 }
 
