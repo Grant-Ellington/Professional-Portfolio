@@ -29,9 +29,9 @@ To run, repo using npm and run in browser of choosing.
 
 ![Image of the top of the web page](/assets/images/Screenshot-topofwebpage.png)
 
-![Image of the middle of web page](/assets/images/Screenshot-midleofwebpage.png)
+![Image of the middle of web page](/assets/images/Screenshot-middleofwebpage.png)
 
-!
+![Image of the bottom of the webpage](assets/image/Screenshot-bottomofwebpage.png)
 
 
 
