@@ -144,7 +144,6 @@ body {
 }
 
 .apps-links {
-    color: var(--black);
     margin-bottom: 5px;
     background-color: var(--grey);
 }
@@ -227,7 +226,31 @@ body {
     right: 200px;
     margin-bottom: 5px;
     background-color: var(--grey);
+    color: var(--white);
     display: flex;
     align-items: flex-start;
 }
 
+.contact {
+    display: flex;
+    justify-content: space-between;
+    width:1200px;
+
+}
+
+a.contact-item {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 10px;
+    color: var(--black);
+    font-size: 32px;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+}
