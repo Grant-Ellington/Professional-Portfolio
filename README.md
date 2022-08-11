@@ -27,11 +27,11 @@ To run, repo using npm and run in browser of choosing.
 * links to differnet projects, this is set-up witha main image and project to highlight; along with smaller projects to show diversity,
 * This should show proficency in the layout method with flex.
 
-![Image of the top of the web page][Grant-Ellington/Professional-Portfolio/tree/main/assets/images/Screenshot-topofwebpage.png]
+![Image of the top of the web page](/assets/images/Screenshot-topofwebpage.png)
 
-![Image of the middle of web page][Grant-Ellington/Professional-Portfolio/tree/main/assets/images/Screenshot-midleofwebpage.png]
+![Image of the middle of web page](/assets/images/Screenshot-midleofwebpage.png)
 
-![Image of the botom of the webpage][Grant-Ellington/Professional-Portfolio/tree/main/assets/images/Screenshot-bottomofwebpage.png]
+!
 
 
 
